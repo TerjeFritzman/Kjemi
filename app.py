@@ -40,14 +40,14 @@ st.markdown(
         border-radius: 12px;
     }}
     </style>
-    <div class="escape-header">Tangen VGS</div>
-    <div class="escape-instructions">Skriv inn passordet for å komme videre!</div>
+    <div class="escape-header">Dr. Eli Minate, Kjemiker</div>
+    <div class="escape-instructions">Skriv inn passordet for å redde skolen!</div>
     """,
     unsafe_allow_html=True
 )
 
 # Sett passordet her
-KORREKT_PASSORD = "vann"
+KORREKT_PASSORD = "SPRENGE"
 
 password = st.text_input("Skriv inn passordet her:", type="password")
 
